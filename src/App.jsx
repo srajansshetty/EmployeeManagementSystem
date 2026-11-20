@@ -123,7 +123,7 @@ const filteredEmployees = employees.filter(function(employee) {
   return(
 
     <div className="app-container">
-    <h2>Employee Management System.</h2>
+    <h2>Employee Management System - Version 2.</h2>
     <p>What is your name</p>
    <input type="text" value={name} placeholder=" what is your name" onChange={UserName}></input> 
    <p>What is your email</p>
