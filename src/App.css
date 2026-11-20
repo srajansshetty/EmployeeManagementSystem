@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.app-container {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #2563eb;
+}
+
+.form-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: white;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.search-input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.employee-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.employee-card {
+    background-color: #f9fafb;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.employee-card h4 {
+    color: #2563eb;
+}
+
+.edit-btn {
+    background-color: green;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.error-message {
+    color: red;
+}
