@@ -119,11 +119,18 @@ const filteredEmployees = employees.filter(function(employee) {
   return employee.name.toLowerCase().includes(search.toLowerCase());
 });
 
+function cancelEdit() {
+  setname("");
+  setemail("");
+  setdepartment("");
+  setsalary("");
+  seteditId(null);
+}
 
   return(
 
     <div className="app-container">
-    <h2>Employee Management System - Version 2.</h2>
+    <h2>Employee Management System.</h2>
     <p>What is your name</p>
    <input type="text" value={name} placeholder=" what is your name" onChange={UserName}></input> 
    <p>What is your email</p>
@@ -138,6 +145,11 @@ const filteredEmployees = employees.filter(function(employee) {
     <button onClick={submit}>
   {editId !== null ? "Update Employee" : "Add Employee"}
 </button>
+{editId !== null && (
+  <button onClick={cancelEdit}>
+    Cancel Edit
+  </button>
+)}
 <input placeholder="Search here" type="text" value={search} onChange={search_here}></input>
  <p>{error}</p>
  

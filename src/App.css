@@ -1,93 +1,45 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 20px;
+  background-color: #f2f4f8;
+  font-family: Arial;
 }
 
 .app-container {
-    width: 80%;
-    margin: auto;
+  width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 h2 {
-    text-align: center;
-    color: #2563eb;
+  text-align: center;
+  color: navy;
 }
 
-.form-card {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 20px;
+p {
+  font-size: 15px;
+  color: #333;
 }
 
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.form-group input {
-    width: 95%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 
 button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #2563eb;
-    color: white;
-    margin: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #1d4ed8;
-}
-
-.search-input {
-    padding: 10px;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-.employee-section {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.employee-card {
-    background-color: #f9fafb;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.employee-card h4 {
-    color: #2563eb;
-}
-
-.edit-btn {
-    background-color: green;
-}
-
-.delete-btn {
-    background-color: red;
-}
-
-.error-message {
-    color: red;
+  background-color: darkblue;
 }
